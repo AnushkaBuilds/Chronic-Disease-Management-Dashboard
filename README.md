@@ -18,14 +18,12 @@ This project builds an interactive dashboard to monitor and manage chronic disea
 
 ----------
 ## 📁 Dataset
-The dataset includes patient health information such as:
-- Age, Gender
-- Blood Pressure
-- Glucose Level
-- Cholesterol
-- Smoking/Alcohol Usage
-- BMI
-Dataset Source:  Chest X-Ray Images (Pneumonia) – Kaggle
+
+The chest X-ray dataset includes two classes:
+- Normal: Healthy lung scans
+- Pneumonia: Infected lung scans
+  
+Dataset Source:  [Chest X-Ray Images (Pneumonia) – Kaggle](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
 
 --------
 ## 🚀 How to Run
@@ -33,7 +31,7 @@ Dataset Source:  Chest X-Ray Images (Pneumonia) – Kaggle
 -  Install required dependencies
 - Run main.py or app.py via Streamlit
 - Upload chest X-ray image to test
-- 
+ 
   ```
   streamlit run app.py
   ```
