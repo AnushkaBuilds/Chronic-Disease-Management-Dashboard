@@ -1,0 +1,16 @@
+# Ignore specific file types (optional but useful)
+*.lnk
+*.exe
+*.pdf
+*.pptx
+*.docx
+*.txt
+*.ini
+
+# Ignore Python cache folders
+__pycache__/
+*.pyc
+
+# Ignore VSCode settings folder
+.vscode/
+
